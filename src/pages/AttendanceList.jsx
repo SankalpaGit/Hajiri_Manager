@@ -4,7 +4,7 @@ const AttendanceList = () => {
 
   const attendanceData = [
     { id: 1, name: 'John Doe', date: '2024-08-27', day:'sunday', department:'Web development' ,checkIn: '09:00 AM', checkOut: '05:00 PM', totalHours: '8h' },
-    { id: 2, name: 'Jane Smith', date: '2024-08-27', day:'sunday', department:'Human Resourse', checkIn: '09:15 AM', checkOut: '05:15 PM', totalHours: '8h' },
+    
 
   ];
 

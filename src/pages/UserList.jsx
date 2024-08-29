@@ -14,9 +14,8 @@ const UserList = () => {
 
   // Sample data for the table
   const userData = [
-    { id: 1, fullName: 'Sankalpa Shrestha', username: 'Sankalpa', department: 'IT', position: 'Developer', gmail: 'sankalpa@gmail.com', contact: '+977 9829656532' },
-    { id: 2, fullName: 'Roshan Mainali', username: 'RMainali', department: 'HR', position: 'Manager', gmail: 'rMainali@gmail.com', contact: '+977 9829655646' },
-    // Add more data as needed
+    { id: 1, fullName: 'Sankalpa Shrestha', username: 'SankalpaSth', department: 'Web Development', position: 'Intern', gmail: 'joshisankalpa2@gmail.com', contact: '+977 9829656532' },
+    
   ];
 
   const handleOpenModal = () => {
