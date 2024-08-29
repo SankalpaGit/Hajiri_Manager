@@ -11,7 +11,7 @@ const Sidebar = () => {
       <ul>
         <li className="py-2">
           <Link
-            to="/dashboard"
+            to="/"
             className={`${
               location.pathname === "/"
                 ? "bg-fuchsia-700 flex items-center py-2.5 px-4 rounded"

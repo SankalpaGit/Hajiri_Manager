@@ -6,6 +6,7 @@ import Login from './components/Login';
 import AdminBoard from './pages/AdminBoard';
 import AttendanceList from './pages/AttendanceList';
 import UserList from './pages/UserList';
+import Signup from './components/SignUp';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         
         {/* Routes that don't use the Page layout */}
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
   );
